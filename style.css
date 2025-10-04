@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #283149;
+
+}
+
+#title{
+    margin-top: 3rem;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px deeppink;
+}
+.set{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 12rem;
+}
+button{
+    width: 10.2rem;
+    height: 10rem;
+    border: 10px solid #404B69;
+    border-radius: 1rem;
+}
+.drum{
+    color: deeppink;
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px white;
+
+}
+.w{
+    background-image: url(./Assests/tom1.png);
+    background-color: white;
+}
+.a{
+    background-image: url(./Assests/tom2.png);
+    background-color: white;
+}
+.s{
+    background-image: url(./Assests/tom3.png);
+}
+.d{
+    background-image: url(./Assests/tom4.png);
+}
+.j{
+    background-image: url(./Assests/snare.png);
+}
+.k{
+    background-image: url(./Assests/crash.png);
+}
+.l{
+    background-image: url(./Assests/kick.png);
+}
+footer{
+    color: gainsboro;
+    opacity: 0.6;
+    margin: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
